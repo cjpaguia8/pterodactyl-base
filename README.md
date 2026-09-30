@@ -1,10 +1,13 @@
-# Pterodactyl (Docker) for the Ubuntu laptop
+# Pterodactyl (Docker) for Ubuntu
+
+A baseline Pterodactyl Panel + Wings setup that runs entirely in Docker. For a version that also
+sets up a NeoForge Minecraft server, see [pterodactyl-neoforge](https://github.com/cjpaguia8/pterodactyl-neoforge).
 
 ## First-time setup
 
 1. Download this onto the laptop:
 
-       sudo git clone https://github.com/cjpaguia8/pterodactyl-docker.git /opt/pterodactyl
+       sudo git clone https://github.com/cjpaguia8/pterodactyl-base.git /opt/pterodactyl
        cd /opt/pterodactyl
 
 2. If Pterodactyl was installed on the laptop before (the normal way, not Docker), remove it first:
